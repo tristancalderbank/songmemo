@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BEBED221BDCDBA001BDA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */; };
+		A5BEBED421BDCDBA001BDA01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBED321BDCDBA001BDA01 /* ViewController.swift */; };
+		A5BEBED721BDCDBA001BDA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BEBED521BDCDBA001BDA01 /* Main.storyboard */; };
+		A5BEBED921BDCDBB001BDA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BEBED821BDCDBB001BDA01 /* Assets.xcassets */; };
+		A5BEBEDC21BDCDBB001BDA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BEBEDA21BDCDBB001BDA01 /* LaunchScreen.storyboard */; };
+		A5BEBEE721BDCDBB001BDA01 /* songmemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBEE621BDCDBB001BDA01 /* songmemoTests.swift */; };
+		A5BEBEF221BDCDBB001BDA01 /* songmemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBEF121BDCDBB001BDA01 /* songmemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BEBEE321BDCDBB001BDA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BEBEC621BDCDBA001BDA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BEBECD21BDCDBA001BDA01;
+			remoteInfo = songmemo;
+		};
+		A5BEBEEE21BDCDBB001BDA01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BEBEC621BDCDBA001BDA01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BEBECD21BDCDBA001BDA01;
+			remoteInfo = songmemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5BEBECE21BDCDBA001BDA01 /* songmemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songmemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5BEBED321BDCDBA001BDA01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5BEBED621BDCDBA001BDA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5BEBED821BDCDBB001BDA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BEBEDB21BDCDBB001BDA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5BEBEDD21BDCDBB001BDA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BEBEE221BDCDBB001BDA01 /* songmemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = songmemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BEBEE621BDCDBB001BDA01 /* songmemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songmemoTests.swift; sourceTree = "<group>"; };
+		A5BEBEE821BDCDBB001BDA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BEBEED21BDCDBB001BDA01 /* songmemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = songmemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BEBEF121BDCDBB001BDA01 /* songmemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songmemoUITests.swift; sourceTree = "<group>"; };
+		A5BEBEF321BDCDBB001BDA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BEBECB21BDCDBA001BDA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BEBEDF21BDCDBB001BDA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BEBEEA21BDCDBB001BDA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BEBEC521BDCDBA001BDA01 = {
+			isa = PBXGroup;
+			children = (
+				A5BEBED021BDCDBA001BDA01 /* songmemo */,
+				A5BEBEE521BDCDBB001BDA01 /* songmemoTests */,
+				A5BEBEF021BDCDBB001BDA01 /* songmemoUITests */,
+				A5BEBECF21BDCDBA001BDA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BEBECF21BDCDBA001BDA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BEBECE21BDCDBA001BDA01 /* songmemo.app */,
+				A5BEBEE221BDCDBB001BDA01 /* songmemoTests.xctest */,
+				A5BEBEED21BDCDBB001BDA01 /* songmemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BEBED021BDCDBA001BDA01 /* songmemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */,
+				A5BEBED321BDCDBA001BDA01 /* ViewController.swift */,
+				A5BEBED521BDCDBA001BDA01 /* Main.storyboard */,
+				A5BEBED821BDCDBB001BDA01 /* Assets.xcassets */,
+				A5BEBEDA21BDCDBB001BDA01 /* LaunchScreen.storyboard */,
+				A5BEBEDD21BDCDBB001BDA01 /* Info.plist */,
+			);
+			path = songmemo;
+			sourceTree = "<group>";
+		};
+		A5BEBEE521BDCDBB001BDA01 /* songmemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BEBEE621BDCDBB001BDA01 /* songmemoTests.swift */,
+				A5BEBEE821BDCDBB001BDA01 /* Info.plist */,
+			);
+			path = songmemoTests;
+			sourceTree = "<group>";
+		};
+		A5BEBEF021BDCDBB001BDA01 /* songmemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BEBEF121BDCDBB001BDA01 /* songmemoUITests.swift */,
+				A5BEBEF321BDCDBB001BDA01 /* Info.plist */,
+			);
+			path = songmemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BEBECD21BDCDBA001BDA01 /* songmemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BEBEF621BDCDBB001BDA01 /* Build configuration list for PBXNativeTarget "songmemo" */;
+			buildPhases = (
+				A5BEBECA21BDCDBA001BDA01 /* Sources */,
+				A5BEBECB21BDCDBA001BDA01 /* Frameworks */,
+				A5BEBECC21BDCDBA001BDA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = songmemo;
+			productName = songmemo;
+			productReference = A5BEBECE21BDCDBA001BDA01 /* songmemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5BEBEE121BDCDBB001BDA01 /* songmemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BEBEF921BDCDBB001BDA01 /* Build configuration list for PBXNativeTarget "songmemoTests" */;
+			buildPhases = (
+				A5BEBEDE21BDCDBB001BDA01 /* Sources */,
+				A5BEBEDF21BDCDBB001BDA01 /* Frameworks */,
+				A5BEBEE021BDCDBB001BDA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BEBEE421BDCDBB001BDA01 /* PBXTargetDependency */,
+			);
+			name = songmemoTests;
+			productName = songmemoTests;
+			productReference = A5BEBEE221BDCDBB001BDA01 /* songmemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5BEBEEC21BDCDBB001BDA01 /* songmemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BEBEFC21BDCDBB001BDA01 /* Build configuration list for PBXNativeTarget "songmemoUITests" */;
+			buildPhases = (
+				A5BEBEE921BDCDBB001BDA01 /* Sources */,
+				A5BEBEEA21BDCDBB001BDA01 /* Frameworks */,
+				A5BEBEEB21BDCDBB001BDA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BEBEEF21BDCDBB001BDA01 /* PBXTargetDependency */,
+			);
+			name = songmemoUITests;
+			productName = songmemoUITests;
+			productReference = A5BEBEED21BDCDBB001BDA01 /* songmemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BEBEC621BDCDBA001BDA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = songmemo;
+				TargetAttributes = {
+					A5BEBECD21BDCDBA001BDA01 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A5BEBEE121BDCDBB001BDA01 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5BEBECD21BDCDBA001BDA01;
+					};
+					A5BEBEEC21BDCDBB001BDA01 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5BEBECD21BDCDBA001BDA01;
+					};
+				};
+			};
+			buildConfigurationList = A5BEBEC921BDCDBA001BDA01 /* Build configuration list for PBXProject "songmemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5BEBEC521BDCDBA001BDA01;
+			productRefGroup = A5BEBECF21BDCDBA001BDA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BEBECD21BDCDBA001BDA01 /* songmemo */,
+				A5BEBEE121BDCDBB001BDA01 /* songmemoTests */,
+				A5BEBEEC21BDCDBB001BDA01 /* songmemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BEBECC21BDCDBA001BDA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BEBEDC21BDCDBB001BDA01 /* LaunchScreen.storyboard in Resources */,
+				A5BEBED921BDCDBB001BDA01 /* Assets.xcassets in Resources */,
+				A5BEBED721BDCDBA001BDA01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BEBEE021BDCDBB001BDA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BEBEEB21BDCDBB001BDA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BEBECA21BDCDBA001BDA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BEBED421BDCDBA001BDA01 /* ViewController.swift in Sources */,
+				A5BEBED221BDCDBA001BDA01 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BEBEDE21BDCDBB001BDA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BEBEE721BDCDBB001BDA01 /* songmemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BEBEE921BDCDBB001BDA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BEBEF221BDCDBB001BDA01 /* songmemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BEBEE421BDCDBB001BDA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BEBECD21BDCDBA001BDA01 /* songmemo */;
+			targetProxy = A5BEBEE321BDCDBB001BDA01 /* PBXContainerItemProxy */;
+		};
+		A5BEBEEF21BDCDBB001BDA01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BEBECD21BDCDBA001BDA01 /* songmemo */;
+			targetProxy = A5BEBEEE21BDCDBB001BDA01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5BEBED521BDCDBA001BDA01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BEBED621BDCDBA001BDA01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5BEBEDA21BDCDBB001BDA01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BEBEDB21BDCDBB001BDA01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BEBEF421BDCDBB001BDA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5BEBEF521BDCDBB001BDA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BEBEF721BDCDBB001BDA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPFZ33NPM5;
+				INFOPLIST_FILE = songmemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songmemo.songmemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5BEBEF821BDCDBB001BDA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPFZ33NPM5;
+				INFOPLIST_FILE = songmemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songmemo.songmemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5BEBEFA21BDCDBB001BDA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPFZ33NPM5;
+				INFOPLIST_FILE = songmemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songmemo.songmemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/songmemo.app/songmemo";
+			};
+			name = Debug;
+		};
+		A5BEBEFB21BDCDBB001BDA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPFZ33NPM5;
+				INFOPLIST_FILE = songmemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songmemo.songmemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/songmemo.app/songmemo";
+			};
+			name = Release;
+		};
+		A5BEBEFD21BDCDBB001BDA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPFZ33NPM5;
+				INFOPLIST_FILE = songmemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songmemo.songmemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = songmemo;
+			};
+			name = Debug;
+		};
+		A5BEBEFE21BDCDBB001BDA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPFZ33NPM5;
+				INFOPLIST_FILE = songmemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = songmemo.songmemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = songmemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BEBEC921BDCDBA001BDA01 /* Build configuration list for PBXProject "songmemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BEBEF421BDCDBB001BDA01 /* Debug */,
+				A5BEBEF521BDCDBB001BDA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BEBEF621BDCDBB001BDA01 /* Build configuration list for PBXNativeTarget "songmemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BEBEF721BDCDBB001BDA01 /* Debug */,
+				A5BEBEF821BDCDBB001BDA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BEBEF921BDCDBB001BDA01 /* Build configuration list for PBXNativeTarget "songmemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BEBEFA21BDCDBB001BDA01 /* Debug */,
+				A5BEBEFB21BDCDBB001BDA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BEBEFC21BDCDBB001BDA01 /* Build configuration list for PBXNativeTarget "songmemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BEBEFD21BDCDBB001BDA01 /* Debug */,
+				A5BEBEFE21BDCDBB001BDA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BEBEC621BDCDBA001BDA01 /* Project object */;
+}
