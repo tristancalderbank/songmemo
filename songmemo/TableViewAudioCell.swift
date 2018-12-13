@@ -12,6 +12,7 @@ class TableViewAudioCell: UITableViewCell {
     
     @IBOutlet weak var audioFileName: UILabel!
     @IBOutlet weak var audioFileDate: UILabel!
+    @IBOutlet weak var audioFileDuration: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

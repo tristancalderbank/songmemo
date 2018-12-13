@@ -11,6 +11,7 @@
 		A5B65C1E21C232FE00AFA553 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C1D21C232FE00AFA553 /* FileSystem.swift */; };
 		A5B65C2021C23C2700AFA553 /* TableViewAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C1F21C23C2700AFA553 /* TableViewAudioCell.swift */; };
 		A5B65C2221C23F4000AFA553 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C2121C23F4000AFA553 /* Util.swift */; };
+		A5B65C2421C2402C00AFA553 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C2321C2402C00AFA553 /* Audio.swift */; };
 		A5BEBED221BDCDBA001BDA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */; };
 		A5BEBED421BDCDBA001BDA01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBED321BDCDBA001BDA01 /* ViewController.swift */; };
 		A5BEBED721BDCDBA001BDA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BEBED521BDCDBA001BDA01 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		A5B65C1D21C232FE00AFA553 /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		A5B65C1F21C23C2700AFA553 /* TableViewAudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAudioCell.swift; sourceTree = "<group>"; };
 		A5B65C2121C23F4000AFA553 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A5B65C2321C2402C00AFA553 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		A5BEBECE21BDCDBA001BDA01 /* songmemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songmemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5BEBED321BDCDBA001BDA01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				A5BEBEDA21BDCDBB001BDA01 /* LaunchScreen.storyboard */,
 				A5BEBEDD21BDCDBB001BDA01 /* Info.plist */,
 				A5B65C2121C23F4000AFA553 /* Util.swift */,
+				A5B65C2321C2402C00AFA553 /* Audio.swift */,
 			);
 			path = songmemo;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				A5B65C2021C23C2700AFA553 /* TableViewAudioCell.swift in Sources */,
 				A5B65C1C21C22F9D00AFA553 /* TableViewTextCell.swift in Sources */,
 				A5BEBED221BDCDBA001BDA01 /* AppDelegate.swift in Sources */,
+				A5B65C2421C2402C00AFA553 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

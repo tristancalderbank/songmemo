@@ -83,9 +83,11 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, UITableViewDele
         
         let audioFileURL = getAudioFiles()[indexPath.row]
         let audioFileModifiedDate = getFileModifiedDate(url: audioFileURL)?.toString(dateFormat: "YYYY-MM-dd")
+        let (audioFileMinutes, audioFileSeconds) = getAudioFileDuration(url: audioFileURL)
         
         audioCell.audioFileName.text = String(getFileName(url: audioFileURL))
         audioCell.audioFileDate.text = audioFileModifiedDate
+        audioCell.audioFileDuration.text = String(format: "%d:%02d", audioFileMinutes, audioFileSeconds)
   
         return audioCell
     }
