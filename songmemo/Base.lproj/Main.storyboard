@@ -30,6 +30,27 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCell" rowHeight="152" id="sfO-GD-SF5" customClass="ViewControllerTableViewTextCell" customModule="songmemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="152"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sfO-GD-SF5" id="eGH-ng-peb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A1g-nP-bSp">
+                                                    <rect key="frame" x="15" y="11" width="345" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="textCellTextView" destination="A1g-nP-bSp" id="aWi-gm-azb"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="yvg-PO-6he"/>
@@ -39,13 +60,28 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLU-NC-4ya">
                                 <rect key="frame" x="0.0" y="589" width="375" height="78"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="182-yR-hdx">
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="78"/>
+                                        <color key="backgroundColor" red="0.28237424622444285" green="0.39449613987175858" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Text">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="record:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LLH-N9-gm0"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlK-pJ-Js2">
-                                        <rect key="frame" x="162.5" y="14" width="50" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="78"/>
                                         <color key="backgroundColor" red="1" green="0.20492110704996913" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Gka-fD-hpU"/>
-                                            <constraint firstAttribute="width" constant="50" id="wrG-Ey-NDL"/>
-                                        </constraints>
+                                        <state key="normal" title="Record">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="25"/>
@@ -57,11 +93,16 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
-                                    <constraint firstItem="VlK-pJ-Js2" firstAttribute="centerX" secondItem="pLU-NC-4ya" secondAttribute="centerX" id="71F-VL-EX0"/>
                                     <constraint firstAttribute="height" constant="78" id="9Bi-4b-0Qc"/>
-                                    <constraint firstAttribute="bottom" secondItem="VlK-pJ-Js2" secondAttribute="bottom" constant="14" id="aRV-Q4-8m6"/>
+                                    <constraint firstItem="VlK-pJ-Js2" firstAttribute="leading" secondItem="pLU-NC-4ya" secondAttribute="leading" id="Hpe-Ff-eGl"/>
+                                    <constraint firstItem="182-yR-hdx" firstAttribute="top" secondItem="pLU-NC-4ya" secondAttribute="top" id="Ltc-Os-UBC"/>
+                                    <constraint firstAttribute="bottom" secondItem="VlK-pJ-Js2" secondAttribute="bottom" id="Vwp-1o-vbB"/>
+                                    <constraint firstAttribute="trailing" secondItem="182-yR-hdx" secondAttribute="trailing" id="bkl-EY-ldU"/>
+                                    <constraint firstItem="182-yR-hdx" firstAttribute="leading" secondItem="VlK-pJ-Js2" secondAttribute="trailing" id="e43-uL-jGM"/>
+                                    <constraint firstAttribute="bottom" secondItem="182-yR-hdx" secondAttribute="bottom" id="fsI-jj-PA7"/>
+                                    <constraint firstItem="VlK-pJ-Js2" firstAttribute="top" secondItem="pLU-NC-4ya" secondAttribute="top" id="ku9-t1-kgp"/>
+                                    <constraint firstItem="182-yR-hdx" firstAttribute="width" secondItem="VlK-pJ-Js2" secondAttribute="width" id="spT-i0-w11"/>
                                 </constraints>
                             </view>
                         </subviews>
