@@ -22,16 +22,48 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="egY-nZ-9KC">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="audioCell" rowHeight="76" id="egY-nZ-9KC" customClass="TableViewAudioCell" customModule="songmemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="egY-nZ-9KC" id="oH6-eL-Kqy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="75.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="audio_clip.m4a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xp-wa-ocr">
+                                                    <rect key="frame" x="15" y="11" width="114" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="mX0-qP-qYd"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018-12-13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpj-TO-HY9">
+                                                    <rect key="frame" x="15" y="44" width="89" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="IaR-P9-qAQ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rpj-TO-HY9" firstAttribute="leading" secondItem="oH6-eL-Kqy" secondAttribute="leadingMargin" id="51e-a4-8GU"/>
+                                                <constraint firstItem="rpj-TO-HY9" firstAttribute="top" secondItem="2xp-wa-ocr" secondAttribute="bottom" constant="12" id="Ggt-7h-dy7"/>
+                                                <constraint firstItem="2xp-wa-ocr" firstAttribute="leading" secondItem="oH6-eL-Kqy" secondAttribute="leadingMargin" id="cN8-G0-RAt"/>
+                                                <constraint firstItem="rpj-TO-HY9" firstAttribute="top" secondItem="2xp-wa-ocr" secondAttribute="bottom" constant="12" id="gK1-Mr-kij"/>
+                                                <constraint firstItem="2xp-wa-ocr" firstAttribute="top" secondItem="oH6-eL-Kqy" secondAttribute="topMargin" id="uMm-ge-NVL"/>
+                                                <constraint firstItem="rpj-TO-HY9" firstAttribute="bottom" secondItem="oH6-eL-Kqy" secondAttribute="bottomMargin" id="zkr-ta-Ctm"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="audioFileDate" destination="rpj-TO-HY9" id="hYJ-0q-qCc"/>
+                                            <outlet property="audioFileName" destination="2xp-wa-ocr" id="cWY-Nh-ZqR"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="textCell" rowHeight="152" id="sfO-GD-SF5" customClass="ViewControllerTableViewTextCell" customModule="songmemo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="152"/>
+                                        <rect key="frame" x="0.0" y="104" width="375" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sfO-GD-SF5" id="eGH-ng-peb">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>

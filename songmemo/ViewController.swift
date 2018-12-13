@@ -79,12 +79,15 @@ class ViewController: UIViewController, AVAudioRecorderDelegate, UITableViewDele
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        let audioFiles = getAudioFiles()
-        print(getFileName(url: audioFiles[indexPath.row]))
+        let audioCell = tableView.dequeueReusableCell(withIdentifier: "audioCell", for: indexPath) as! TableViewAudioCell
         
-        cell.textLabel?.text = String(getFileName(url: audioFiles[indexPath.row]))
-        return cell
+        let audioFileURL = getAudioFiles()[indexPath.row]
+        let audioFileModifiedDate = getFileModifiedDate(url: audioFileURL)?.toString(dateFormat: "YYYY-MM-dd")
+        
+        audioCell.audioFileName.text = String(getFileName(url: audioFileURL))
+        audioCell.audioFileDate.text = audioFileModifiedDate
+  
+        return audioCell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5B65C1C21C22F9D00AFA553 /* ViewControllerTableViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C1B21C22F9D00AFA553 /* ViewControllerTableViewTextCell.swift */; };
+		A5B65C1C21C22F9D00AFA553 /* TableViewTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C1B21C22F9D00AFA553 /* TableViewTextCell.swift */; };
 		A5B65C1E21C232FE00AFA553 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C1D21C232FE00AFA553 /* FileSystem.swift */; };
+		A5B65C2021C23C2700AFA553 /* TableViewAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C1F21C23C2700AFA553 /* TableViewAudioCell.swift */; };
+		A5B65C2221C23F4000AFA553 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B65C2121C23F4000AFA553 /* Util.swift */; };
 		A5BEBED221BDCDBA001BDA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */; };
 		A5BEBED421BDCDBA001BDA01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BEBED321BDCDBA001BDA01 /* ViewController.swift */; };
 		A5BEBED721BDCDBA001BDA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BEBED521BDCDBA001BDA01 /* Main.storyboard */; };
@@ -36,8 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5B65C1B21C22F9D00AFA553 /* ViewControllerTableViewTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewTextCell.swift; sourceTree = "<group>"; };
+		A5B65C1B21C22F9D00AFA553 /* TableViewTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTextCell.swift; sourceTree = "<group>"; };
 		A5B65C1D21C232FE00AFA553 /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
+		A5B65C1F21C23C2700AFA553 /* TableViewAudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAudioCell.swift; sourceTree = "<group>"; };
+		A5B65C2121C23F4000AFA553 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		A5BEBECE21BDCDBA001BDA01 /* songmemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = songmemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BEBED121BDCDBA001BDA01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5BEBED321BDCDBA001BDA01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,10 +109,12 @@
 				A5BEBED321BDCDBA001BDA01 /* ViewController.swift */,
 				A5B65C1D21C232FE00AFA553 /* FileSystem.swift */,
 				A5BEBED521BDCDBA001BDA01 /* Main.storyboard */,
-				A5B65C1B21C22F9D00AFA553 /* ViewControllerTableViewTextCell.swift */,
+				A5B65C1B21C22F9D00AFA553 /* TableViewTextCell.swift */,
+				A5B65C1F21C23C2700AFA553 /* TableViewAudioCell.swift */,
 				A5BEBED821BDCDBB001BDA01 /* Assets.xcassets */,
 				A5BEBEDA21BDCDBB001BDA01 /* LaunchScreen.storyboard */,
 				A5BEBEDD21BDCDBB001BDA01 /* Info.plist */,
+				A5B65C2121C23F4000AFA553 /* Util.swift */,
 			);
 			path = songmemo;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B65C1E21C232FE00AFA553 /* FileSystem.swift in Sources */,
+				A5B65C2221C23F4000AFA553 /* Util.swift in Sources */,
 				A5BEBED421BDCDBA001BDA01 /* ViewController.swift in Sources */,
-				A5B65C1C21C22F9D00AFA553 /* ViewControllerTableViewTextCell.swift in Sources */,
+				A5B65C2021C23C2700AFA553 /* TableViewAudioCell.swift in Sources */,
+				A5B65C1C21C22F9D00AFA553 /* TableViewTextCell.swift in Sources */,
 				A5BEBED221BDCDBA001BDA01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

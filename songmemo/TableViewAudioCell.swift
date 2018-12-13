@@ -1,5 +1,5 @@
 //
-//  ViewControllerTableViewTextCell.swift
+//  TableViewAudioCell.swift
 //  songmemo
 //
 //  Created by testuser1 on 2018-12-12.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewControllerTableViewTextCell: UITableViewCell {
-
-    @IBOutlet weak var textCellTextView: UITextView!
+class TableViewAudioCell: UITableViewCell {
+    
+    @IBOutlet weak var audioFileName: UILabel!
+    @IBOutlet weak var audioFileDate: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -43,6 +43,15 @@ func deleteFile(url: URL) {
     }
 }
 
+func getFileModifiedDate(url: URL) -> Date? {
+    do {
+        let attr = try FileManager.default.attributesOfItem(atPath: url.path)
+        return attr[FileAttributeKey.modificationDate] as? Date
+    } catch {
+        return nil
+    }
+}
+
 //
 //func getFilenames() {
 //
